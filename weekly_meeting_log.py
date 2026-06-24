@@ -2,7 +2,7 @@
 """
 Interactive weekly-meeting logger.
 
-Usage:  python log_meeting.py
+Usage:  python weekly_meeting_log.py
 Asks you what happened, then appends timestamped entries to
   weekly_meeting/<YYYY-MM-DD>/tasks.md
   weekly_meeting/<YYYY-MM-DD>/progress.md
