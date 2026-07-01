@@ -49,7 +49,7 @@ def append_entry(path: Path, title: str, description: str, body: str, stamp: str
 
 def main():
     today = date.today().isoformat()           # YYYY-MM-DD (ISO-8601)
-    stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    stamp = datetime.now().strftime("%Y-%m-%d")
     folder = ROOT / today
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "images").mkdir(exist_ok=True)
